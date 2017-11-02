@@ -5,7 +5,7 @@ function convert(num){
     for(var i=0; i<numbers.length; i++){
       while (num >= numbers[i]) {
         roman = roman + romanNumeral[i];
-        // num = num - numbers[i];
+        num = num - numbers[i];
       }
     }
   return roman;
